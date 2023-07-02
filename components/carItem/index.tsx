@@ -80,14 +80,14 @@ const CarItem = ({car}: Props) => {
                 alt="volante"
               />
               <p className="text-[14px]">
-                {car.city_mpg} Km/Por/Galão
+                {car.city_mpg} MPG
               </p>
             </div>
           </div>
 
           <div className="car-card__btn-container">
             <CustomButton
-              title="Saiba Mais"
+              title="More info"
               containerStyles="w-full py-[16px] rounded-full
               bg-primary-blue"
               textStyles="text-white text-[14px leading-[17px] font-bold"
